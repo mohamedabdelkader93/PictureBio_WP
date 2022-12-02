@@ -1,0 +1,190 @@
+.how_it_works_section {
+    background-color: #CDF2F1;
+    padding: 5% 0 15% 0;
+    background-image: url("../../assets/images/how-it-works-pattern.png");
+    background-size: 38%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    h6 {
+        font-family: "SpaceGroteskRegular";
+        font-size: 12px;
+        color: #32B286;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .how_it_works_card_wrapper:nth-child(even) {
+        .how_it_works_card {
+            margin-left: auto;
+        }
+    }
+
+    .how_it_works_card {
+        max-width: 53%;
+        margin-bottom: 70px;
+        h3 {
+            font-family: "SpaceGroteskRegular";
+            font-size: 24px;
+            color: #255D5E;
+            line-height: 28px;
+
+            b {
+                font-family: "SpaceGroteskBold";
+            }
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 28px;
+            color: #255D5E;
+            font-family: "HelveticaLight";
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+}
+
+.how_it_works_using_iris_section{
+    background-color: #010101;
+    padding: 10% 0 2% 0;
+    background-image: url("../../assets/images/using-iris-pattern.png");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    h6{
+        font-family: "SpaceGroteskRegular";
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    h2{
+        font-family: "HelveticaLight";
+        font-size: 48px;
+        color: #fff;
+        width: 170px;
+        span{
+            color: #9DE452;
+            text-transform: uppercase;
+        };
+    }
+    hr{
+        border-top: 2px solid;
+        opacity: 1;
+        color: #fff;
+        margin: 40px 0;
+    }
+    ul.how_it_works_using_iris_cards_wrapper{
+        list-style-type: none;
+        color: #fff;
+        display: flex;
+        padding-left: 0;
+        margin: 25px 0;
+        li{
+            text-align: center;
+            flex: 5;
+            padding: 0 30px;
+            span{
+                display: block;
+                text-align: left;
+                color: #9DE452;
+                font-size: 20px;
+            }
+            img{
+                display: block;
+                margin: auto;
+                width: 70px;
+                height: 70px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-family: "SpaceGroteskLight";
+                display: block;
+                text-transform: uppercase;
+                margin: auto;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.8px;
+                b{
+                    font-family: "SpaceGroteskBold";
+                }
+            }
+            @media screen and (max-width: 768px) {
+                margin-bottom: 50px;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+}
+
+.transforming_diagnostics_wrapper{
+    padding: 10% 0;
+    padding-bottom: 0;
+    h6{
+        font-family: "SpaceGroteskRegular";
+        font-size: 12px;
+        color: #9DE452;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    p{
+        font-family: "SpaceGroteskRegular";
+        font-size: 24px;
+        line-height: 28px;
+        color: #fff;
+        span{
+            color: #9DE452;
+        }
+        margin-bottom: 60px;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+        li{
+            flex: 3;
+            font-size: 18px;
+            line-height: 28px;
+            font-family: "HelveticaLight";
+            color: #fff;
+            p{
+                font-size: 18px;
+                line-height: 28px;
+                font-family: "HelveticaLight";
+            }
+            span{
+                color: #9DE452;
+            }
+            @media screen and (max-width: 768px) {
+                margin-bottom: 40px;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+    .cta{
+        text-align: center;
+        margin-top: 30px;
+        .btn{
+            font-family: "SpaceGroteskRegular";
+            font-size: 14px;
+            border: 2px solid #9DE452;
+            padding: 14px 45px;
+            border-radius: 25px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+    hr{
+        border-top: 2px solid;
+        opacity: 1;
+        color: #fff;
+        margin: 100px 0;
+    }
+}

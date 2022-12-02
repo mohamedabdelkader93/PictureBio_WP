@@ -1,0 +1,62 @@
+.one_minute_diagnostics_section {
+    background-color: #010101;
+    padding: 5% 0 10% 0;
+    background-image: url("../../assets/images/Group 50.png");
+    background-attachment: fixed;
+    background-size: 101%;
+    background-position: center;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 768px) {
+        background-size: 147%;
+    }
+    h1 {
+        color: #fff;
+        font-family: "SpaceGroteskLight";
+        font-size: 48px;
+        line-height: 61px;
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 100px;
+
+        span {
+            font-family: "SpaceGroteskBold";
+            color: #9DE452;
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    .one_minute_diagnostics_card {
+        margin-bottom: 90px;
+
+        h3 {
+            font-family: "SpaceGroteskLight";
+            font-size: 32px;
+            line-height: 36px;
+            text-transform: uppercase;
+            color: #9DE452;
+            margin-bottom: 20px;
+            width: 73%;
+
+            b {
+                font-family: "SpaceGroteskBold";
+
+            }
+        }
+
+        p {
+            color: #fff;
+            font-size: 24px;
+            line-height: 28px;
+            font-family: "SpaceGroteskLight";
+            padding-right: 25%;
+
+            b {}
+            @media screen and (max-width: 768px) {
+                padding-right: 0;
+            }
+        }
+    }
+}

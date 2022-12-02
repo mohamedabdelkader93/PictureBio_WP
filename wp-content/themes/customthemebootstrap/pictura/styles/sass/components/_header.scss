@@ -1,0 +1,141 @@
+.header_section{
+    // background-image: url("../../assets/images/header-background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    
+    .header_text{
+        max-width: 51%;
+        margin: 16% 0;
+        p{
+            color: #fff;
+            font-size: 48px;
+            line-height: 55px;
+            font-family: "HelveticaLight";
+            span{
+                color: #9DE452;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        
+    }
+}
+
+.navbar, .navbar.bg-light{
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+    padding: 15px 0;
+    margin-bottom: 50px;
+    .navbar-brand{
+        img{
+            width: 145px;
+            display: none;
+        }
+    }
+    .csl-logo-block{
+        a{
+            background-image: url("../../assets/images/logo-2.png");
+            width: 145px;
+            height: 26px;
+            img{
+                display: none;
+            }
+        }
+    }
+    .navbar-collapse{
+        .navbar-nav{
+            .nav-item{
+                position: relative;
+                margin: 0px 10px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                a{
+                    color: #000;
+                    font-family: "SpaceGroteskBold";
+                }
+            }
+            .nav-item.current-menu-item {
+                &:before{
+                    content: "";
+                    width: 5px;
+                    height: 5px;
+                    background-color: #9DE452;
+                    position: absolute;
+                    left: -3px;
+                    top: 18px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+.introducing_section{
+    background-color: #000;
+    background-image: url("../../assets/images/sec1-pattern.png");
+    background-size: 38%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    .introducing_block{
+        padding: 20% 0;
+        h5{
+            color: white;
+            text-transform: uppercase;
+            font-family: "SpaceGroteskLight";
+            max-width: 200px;
+            font-size: 18px;
+            line-height: 23px;
+            b{
+                font-family: "SpaceGroteskBold";
+            }
+        }
+        img{
+            width: 144px;
+            @media screen and (max-width: 768px) {
+                margin-bottom: 30px;
+            }
+        }
+        p{
+            color: white;
+            font-family: "HelveticaNeueLight";
+            font-size: 18px;
+            line-height: 21px;
+            span{
+                color: #9DE452;
+            }
+        }
+    }
+}
+
+.page-template-front-page, .page-template-contact-page{
+    .csl-logo-block{
+        img{
+            display: block !important;
+        }
+    }
+    .navbar-collapse{
+        .navbar-nav{
+            .nav-item{
+                margin: 0px 10px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                a{
+                    color: #fff !important;
+                    font-family: "SpaceGroteskBold" !important;
+                }
+            }
+        }
+    }
+}

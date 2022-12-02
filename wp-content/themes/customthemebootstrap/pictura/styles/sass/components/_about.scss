@@ -1,0 +1,300 @@
+.the_journey_so_far_section {
+    .page_hero_image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .section_text_list {
+        padding: 80px 0;
+
+        p {
+            font-family: 'HelveticaLight';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            max-width: 60%;
+            margin-left: auto;
+
+            &:first-child {
+                font-family: 'SpaceGroteskRegular';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 31px;
+                letter-spacing: -0.01em;
+                margin-right: auto;
+                margin-left: 0;
+                margin-bottom: 50px;
+            }
+
+            span {
+                color: #32B286;
+            }
+        }
+
+
+    }
+}
+
+.our_goal_today_section {
+    background-color: #000;
+    padding: 100px 0;
+    background-image: url('../../assets/images/our-goal-today-mask.png');
+    background-size: 38%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    .page_subtitle {
+        color: #9DE452;
+    }
+
+    .page_title {
+        color: #fff;
+        max-width: 100%;
+    }
+
+    .section_text_list {
+        padding: 50px 0 0 0;
+
+        .row .col-md-6 p{
+            color: #fff;
+            font-family: 'HelveticaLight';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 21px;
+            display: inline-block;
+            margin-bottom: 40px;
+            vertical-align: text-top;
+            span {
+                color: #9DE452;
+            }
+        }
+
+
+        > p {
+            color: #fff;
+            font-family: 'HelveticaLight';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            width: 49%;
+            display: inline-block;
+            margin-bottom: 40px;
+            vertical-align: text-top;
+
+            &:first-child {
+                font-family: 'SpaceGroteskRegular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                width: 60%;
+            }
+
+            span {
+                color: #9DE452;
+            }
+
+            &:last-child {
+                color: #9DE452;
+                width: 100%;
+                font-family: 'SpaceGroteskRegular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.our_team_section{
+    padding: 100px 0;
+}
+
+.our_team_card{
+    margin-bottom: 60px;
+    > img{
+        width: 100%;
+        max-height: 340px;
+        object-fit: cover;
+        margin-bottom: 35px;
+        position: relative;
+        // &::after{
+        //     content: "";
+        //     position: absolute;
+        //     width: 100%;
+        //     height: 100%;
+        //     top: 0;
+        //     left: 0;
+        //     background-image: url('../../assets/images/team-overlay.png');
+        // }
+    }
+    h2{
+        font-family: 'SpaceGroteskRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 31px;
+        position: relative;
+        padding-bottom: 35px;
+        &:after{
+            content: "";
+            height: 1px;
+            display: block;
+            width: 85%;
+            background: #000;
+            position: absolute;
+            bottom: 8px;
+        }
+        img{
+            margin-left: 20px;
+        }
+    }
+    p{
+        font-family: 'HelveticaLight';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        span{
+            color: #32B286;
+        }
+    }
+}
+
+.partners_section{
+    background-color: #CDF2F1;
+    padding: 100px 0 200px 0;
+    background-image: url('../../assets/images/partners-mask.png');
+    background-size: 25%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    .page_title{
+        color: #215D60;
+    }
+}
+
+.partner_card{
+    text-align: center;
+    margin-top: 30px;
+    img{
+        width: 118px;
+        height: 118px;
+        border-radius: 50%;
+        margin-bottom: 58px;
+        object-fit: contain;
+        background-color: #215D60;
+        padding: 10px;
+    }
+    h2{
+        color: #215D60;
+        font-family: 'HelveticaLight';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+    }
+}
+
+
+.investment_section {
+    background-color: #000;
+    padding: 100px 0 200px 0;
+
+    .page_subtitle {
+        color: #9DE452;
+    }
+
+    .page_title {
+        color: #fff;
+        max-width: 100%;
+    }
+
+    .section_text_list {
+        padding: 50px 0 0 0;
+        p {
+            color: #fff;
+            font-family: 'HelveticaLight';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            width: 60%;
+            margin-bottom: 40px;
+            vertical-align: text-top;
+            margin-left: auto;
+
+            &:first-child {
+                font-family: 'SpaceGroteskRegular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                width: 60%;
+                color: #9DE452;
+                margin-left: 0;
+            }
+
+            span {
+                color: #fff;
+            }
+
+            &:last-child {
+                color: #9DE452;
+                // width: 100%;
+                font-family: 'SpaceGroteskRegular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .cta{
+        text-align: center;
+        width: 60%;
+        margin-left: auto;
+        margin-top: 60px;
+        .btn{
+            font-family: "SpaceGroteskRegular";
+            font-size: 14px;
+            border: 2px solid #9DE452;
+            padding: 14px 45px;
+            border-radius: 25px;
+            color: #000;
+            background-color: #9DE452;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.page_subtitle {
+    font-family: 'SpaceGroteskRegular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #32B286;
+    text-transform: uppercase;
+}
+
+.page_title {
+    font-family: 'HelveticaLight';
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.01em;
+    color: #000;
+    max-width: 280px;
+
+    span {
+        color: #9DE452;
+    }
+}

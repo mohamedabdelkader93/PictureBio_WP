@@ -1,0 +1,112 @@
+.blog_section{
+    padding: 40px 0 200px 0;
+}
+
+.blog_listing_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog_card{
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    flex: 0 calc(33% - 20px);
+    height: auto;
+    .post_date{
+        color: #000;
+        font-family: 'HelveticaLight';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .post_title{
+        font-family: 'SpaceGroteskRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+        color: #32B286;
+        a{
+            color: #32B286;
+            text-decoration: none;
+        }
+    }
+    .post_content{
+        font-family: 'HelveticaLight';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        margin-bottom: 40px;
+    }
+    .find_our_more{
+        font-family: 'SpaceGroteskRegular';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: right;
+        letter-spacing: -0.01em;
+        color: #32B286;
+        text-transform: uppercase;
+        float: right;
+    }
+    &:nth-child(3n){
+        margin-right: 0;
+    }
+    &:nth-child(even){
+        background-color: #000;
+        h6{
+            color: #fff;
+        }
+        .post_content{
+            color: #fff;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        flex: 0 100%;
+        margin-right: 0;
+    }
+}
+
+.want_to_know_more{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 10% 0;
+    h1{
+        font-family: 'SpaceGroteskRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    a.btn{
+        font-family: "SpaceGroteskRegular";
+        font-size: 14px;
+        padding: 10px 45px;
+        border-radius: 25px;
+        color: #9DE452 !important;
+        background-color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid #9DE452;
+        display: block;
+        margin: auto;
+        width: fit-content;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 45% 0;
+    }
+}

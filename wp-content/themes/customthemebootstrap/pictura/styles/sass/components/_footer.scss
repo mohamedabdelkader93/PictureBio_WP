@@ -1,0 +1,180 @@
+.join_the_comunity_section {
+    margin-top: -6%;
+
+    .join_the_comunity_card {
+        background-color: #CDF2F1;
+        background-image: url("../../assets/images/join-the-community-pattern-right-left.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 6.5% 15%;
+        display: block;
+
+        p {
+            color: #32B286;
+            font-size: 22px;
+            line-height: 30px;
+            font-family: "SpaceGroteskRegular";
+            display: inline-block;
+            max-width: 51%;
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+            }
+        }
+
+        a.btn {
+            color: #215D60;
+            background-color: #fff;
+            border-radius: 25px;
+            padding: 8px 20px;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+            font-family: "SpaceGroteskBold";
+            border: 2px solid #215D60;
+            width: 160px;
+            float: right;
+            @media screen and (max-width: 768px) {
+                float: none;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 0;
+            padding: 20px;
+            background-image: none;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        margin-top: 0;
+    }
+}
+
+footer {
+    padding-top: 4%;
+
+    .site_logo {
+        img {
+            width: 118px;
+            height: 116px;
+            @media screen and (max-width: 768px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    h6 {
+        font-size: 12px;
+        line-height: 32px;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-family: "SpaceGroteskBold";
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+
+        li {
+            font-size: 12px;
+            line-height: 18px;
+            color: #4FB59E;
+            font-family: "SpaceGroteskBold";
+
+            a {
+                color: #4FB59E;
+                text-decoration: none;
+
+                &:hover {
+                    color: #4FB59E;
+                }
+            }
+        }
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 14px;
+        font-family: "HelveticaNeueLight";
+        width: 98px;
+    }
+
+    .footer_bottom {
+        display: flex;
+
+        .copyrights {
+            min-width: 20%;
+
+            p {
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                min-width: 100%
+            }
+        }
+
+        .footer_navigation {
+            li {
+                font-family: "SpaceGroteskBold";
+                font-size: 10px;
+                display: inline-block;
+                padding: 0 30px;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    background-color: #000;
+                    position: absolute;
+                    right: -5%;
+                    top: 7px;
+                }
+
+                a {
+                    color: #000;
+                    text-decoration: none;
+                }
+
+                &:last-child {
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+            @media screen and (max-width: 768px) {
+                text-align: center;
+            }
+        }
+
+        .social_navigation {
+            margin-left: auto;
+
+            li {
+                display: inline-block;
+
+                a {
+                    svg {
+                        color: #4FB59E;
+                        width: 32px;
+                    }
+                }
+
+                &:last-child {
+                    margin-left: 15px;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                text-align: center;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+}
