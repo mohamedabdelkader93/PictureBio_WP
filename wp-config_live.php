@@ -28,13 +28,13 @@ define( 'WPCACHEHOME', '/home/xln6jr4p794t/public_html/wp-content/plugins/wp-sup
 define( 'DB_NAME', 'Pictura' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'Pictura_Admin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'W9FZBqDMGMHppbn' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'pictura.bio' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
